@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <filter id="glow512" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0
+                0 1 1 0 0
+                0 1 1 0 0
+                0 0 0 0.9 0" result="glow"/>
+      <feBlend in="SourceGraphic" in2="glow" mode="screen"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#glow512)">
+    <path d="M12 10 H22 V26 H42 V10 H52 V54 H42 V38 H22 V54 H12 Z"
+          fill="#00E6FF"/>
+  </g>
+
+</svg>
