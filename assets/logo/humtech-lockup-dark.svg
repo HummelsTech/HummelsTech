@@ -2,7 +2,7 @@
 
   <!-- Glow defs -->
   <defs>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="softGlowDark" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feColorMatrix type="matrix" 
         values="0 0 0 0 0  
@@ -14,7 +14,7 @@
   </defs>
 
   <!-- Logo H -->
-  <g filter="url(#softGlow)">
+  <g filter="url(#softGlowDark)">
     <path d="M40 30 L70 30 L70 75 L110 75 L110 30 L140 30 L140 150 L110 150 L110 105 L70 105 L70 150 L40 150 Z"
       fill="#00E6FF"/>
   </g>
@@ -25,7 +25,7 @@
         font-size="54" 
         font-weight="700" 
         fill="#00F0FF"
-        filter="url(#softGlow)"
+        filter="url(#softGlowDark)"
         letter-spacing="2">
     HUMTECH
   </text>
@@ -40,3 +40,4 @@
   </text>
 
 </svg>
+
