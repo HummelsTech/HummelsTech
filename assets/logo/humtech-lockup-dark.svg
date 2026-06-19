@@ -1,0 +1,42 @@
+<svg width="480" height="180" viewBox="0 0 480 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Glow defs -->
+  <defs>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix type="matrix" 
+        values="0 0 0 0 0  
+                0 1 1 0 0  
+                0 1 1 0 0  
+                0 0 0 0.8 0" result="glow"/>
+      <feBlend in="SourceGraphic" in2="glow" mode="screen"/>
+    </filter>
+  </defs>
+
+  <!-- Logo H -->
+  <g filter="url(#softGlow)">
+    <path d="M40 30 L70 30 L70 75 L110 75 L110 30 L140 30 L140 150 L110 150 L110 105 L70 105 L70 150 L40 150 Z"
+      fill="#00E6FF"/>
+  </g>
+
+  <!-- HUMTECH text -->
+  <text x="170" y="85" 
+        font-family="Inter, sans-serif" 
+        font-size="54" 
+        font-weight="700" 
+        fill="#00F0FF"
+        filter="url(#softGlow)"
+        letter-spacing="2">
+    HUMTECH
+  </text>
+
+  <!-- Tagline -->
+  <text x="172" y="125"
+        font-family="Roboto Mono, monospace"
+        font-size="18"
+        fill="#A8B4C4"
+        letter-spacing="3">
+    HUMAN-DRIVEN TECHNOLOGY
+  </text>
+
+</svg>
