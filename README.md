@@ -5,6 +5,12 @@ Ik bouw aan Human‑Driven Technology: slimme automations, dashboards, Home Assi
 
 ---
 
+## 🖼️ HumTech Header
+![HumTech Header Dark](./assets/headers/humtech-header-dark.png)
+![HumTech Header Light](./assets/headers/humtech-header-light.png)
+
+---
+
 ## 🧑‍💻 Over mij
 - Alwin Hummels — Dordrecht, Nederland
 - Home Assistant enthousiast, automations‑bouwer en HumLab/HumTech creator
