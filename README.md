@@ -1,6 +1,6 @@
 <div align="center">
 
-![HumTech Banner](./assets/headers/humtech-banner.png)
+![HumTech](./assets/headers/HumTech-Header.png)
 
 # HumTech — Human-Driven Technology
 
